@@ -2,9 +2,13 @@ nav {
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.88) 50%,
-    rgba(87, 184, 255, 1) 50%
+    rgba(87, 185, 255, 0.655) 50%
   );
   padding: 20px 0;
+  position: fixed;
+  top: -1px;
+width: 100%;
+z-index: 2;
 }
 .navflex {
   display: flex;
@@ -15,6 +19,7 @@ nav {
   color: white;
   display: none;
 }
+
 ul {
   display: flex;
   gap: 60px;
@@ -63,7 +68,7 @@ ul li:hover a {
     }
   }
 }
-button {
+.Navbutton {
   font-family: Orbitron;
   font-weight: 400;
   font-size: 18px;
@@ -74,7 +79,7 @@ button {
   border: 1px solid rgba(255, 255, 255, 1);
   color: rgba(255, 255, 255, 1);
 }
-button:hover {
+.Navbutton:hover {
   animation-name: Button;
   animation-duration: 1s;
   animation-iteration-count: infinite;

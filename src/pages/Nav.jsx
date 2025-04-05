@@ -37,7 +37,7 @@ const Nav = () => {
         </ul>
         <div className={`endNav ${menuOpen ? "show" : "hide"}`}>
           <img src="Moon.svg" alt="NO icon?" />
-          <button>Contact Us</button>
+          <button className="Navbutton">Contact Us</button>
         </div>
       </div>
     </nav>
