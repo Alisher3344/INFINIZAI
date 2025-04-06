@@ -19,17 +19,16 @@ footer {
   margin: 0 auto 32px;
 }
 @media (max-width: 774px) {
-    .FooterH2 {
-        font-size: 48px;
-        line-height: 58px;
-    }
-  
+  .FooterH2 {
+    font-size: 48px;
+    line-height: 58px;
+  }
 }
 @media (max-width: 529px) {
-   .FooterH2 {
-        font-size: 30px;
-        line-height: 58px;
-    }
+  .FooterH2 {
+    font-size: 28px;
+    line-height: 58px;
+  }
 }
 .FooterP {
   font-family: Orbitron;
@@ -42,9 +41,7 @@ footer {
   margin-bottom: 44px;
   color: rgba(85, 85, 85, 1);
 }
-form {
 
-}
 form input {
   width: 445px;
   height: 70px;
@@ -86,8 +83,8 @@ form button {
     padding: 18px 5px;
   }
 }
-@media (max-width:330px) {
-  .container{
+@media (max-width: 330px) {
+  .container {
     padding: 0 10px;
   }
 }
