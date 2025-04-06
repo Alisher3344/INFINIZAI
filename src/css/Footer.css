@@ -1,6 +1,7 @@
+@import url(../../public/footer.svg);
 footer {
   padding: 130px 0px;
-  background-image: url("../../public/footer.svg");
+  background-image: url("footer.svg");
   background-size: cover;
   display: flex;
   flex-direction: column;
