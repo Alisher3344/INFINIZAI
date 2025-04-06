@@ -1,9 +1,9 @@
-import React from 'react'
-
+import React from "react";
+import "../css/Type.css";
 const Type = () => {
-  return (
-    <div>Type</div>
-  )
-}
+  return <div className="type">
+    <img src="type.svg" alt="" />
+  </div>;
+};
 
-export default Type
+export default Type;
