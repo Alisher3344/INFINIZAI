@@ -1,6 +1,6 @@
 footer {
   padding: 130px 0px;
-  background-image: url("footer.svg");
+  background-image: url("../../public/footer.svg");
   background-size: cover;
   display: flex;
   flex-direction: column;
