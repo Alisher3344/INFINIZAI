@@ -32,7 +32,6 @@ function App() {
       <Type />
       <Zone />
       <Footer />
-
       <a href="#top" className={`back-to-top ${showButton ? "show" : ""}`}>
         ↑
       </a>
