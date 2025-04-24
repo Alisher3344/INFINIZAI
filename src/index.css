@@ -11,12 +11,17 @@
   justify-content: center;
   background-color: black;
   z-index: 100;
-  animation: load 4s forwards;
-  
+  /* animation: load 4s forwards; */
+  animation-name: load;
+  animation-duration: 5s;
 }
   @keyframes load {
     0% {
      opacity: 1;
+    }
+    70%{
+      opacity: 1;
+      
     }
     100% {
       opacity: 0;
